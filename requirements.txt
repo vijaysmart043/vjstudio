@@ -1,0 +1,9 @@
+# Core Runtime Requirements for VJ Studio Windows 10/11 64-bit
+PySide6>=6.6.0
+numpy>=1.26.0
+opencv-python>=4.9.0
+pillow>=10.2.0
+psutil>=5.9.8
+dataclasses-json>=0.6.4
+pyinstaller>=6.5.0
+sounddevice>=0.4.6

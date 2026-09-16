@@ -1,0 +1,57 @@
+{
+  "general": {
+    "app_name": "VJ Studio",
+    "version": "1.0.0",
+    "theme": "dark_broadcast",
+    "auto_check_updates": false,
+    "save_project_on_exit": true,
+    "confirm_exit_on_stream": true
+  },
+  "video": {
+    "base_width": 1920,
+    "base_height": 1080,
+    "fps": 30,
+    "aspect_ratio": "16:9",
+    "color_space": "sRGB",
+    "gpu_acceleration": true
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "buffer_size": 1024,
+    "master_volume": 0.85
+  },
+  "streaming": {
+    "service": "Custom RTMP",
+    "server_url": "rtmp://live.example.com/app",
+    "stream_key": "",
+    "video_bitrate_kbps": 4500,
+    "audio_bitrate_kbps": 160,
+    "keyframe_interval_sec": 2,
+    "encoder": "auto"
+  },
+  "recording": {
+    "output_directory": "recordings",
+    "format": "mp4",
+    "video_bitrate_kbps": 8000,
+    "audio_bitrate_kbps": 192,
+    "encoder": "auto"
+  },
+  "ffmpeg": {
+    "custom_bin_path": "",
+    "prefer_hardware_accel": true
+  },
+  "hotkeys": {
+    "cut": "C",
+    "fade": "F",
+    "dissolve": "D",
+    "toggle_stream": "Space",
+    "toggle_record": "R",
+    "input_1": "F1",
+    "input_2": "F2",
+    "input_3": "F3",
+    "input_4": "F4",
+    "scene_1": "F5",
+    "scene_2": "F6"
+  }
+}
